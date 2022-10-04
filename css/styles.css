@@ -1,0 +1,209 @@
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575; 
+    --accent-color: #2196F3;
+    --original-black-color: #000; 
+    --original-white-color: #fff;
+    --primary-background-color: #2F303A;
+    --white-background-color: #F5F4FA;
+    --gray-color: rgba(255, 255, 255, 0.6);
+    --white-second-section-color: #f5f5f5;
+}
+body {
+    font-family: "roboto", sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--white-second-section-color);
+}
+ul {
+    list-style-type: none ;
+}
+a {
+    text-decoration: none;
+}
+/*-----------------------------------------HEADER-------------------------------*/
+.header {
+    background-color: var(--original-white-color);
+}
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--accent-color);
+}
+.logo {
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--original-black-color);
+}
+.web {
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+/*-----------------------------------------MAIN (INDEX.HTML)---------------------------------*/
+
+.section-third {
+    background-color: var(--white-background-color);
+}
+.main-list {
+    background-color: var(--original-white-color);
+}
+.title-h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--original-white-color);
+}
+.section {
+    background-color: var(--primary-background-color);
+}
+.btn {
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--original-white-color);
+    background-color: var(--accent-color); 
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--original-black-color);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.main-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+.main-list-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.title-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.main-list-title-h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.main-list-txt {
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--text-color); 
+}
+/*----------------------------------------------MAIN (PORTFOLIO.HTML)-------------------------------------*/
+.main-button {
+   font-family: "roboto";
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.63;
+   text-align: center;
+   letter-spacing: 0.03em;
+   cursor: pointer;
+   color: var(--primary-text-color);
+   background-color: var(--white-background-color);
+}
+.main-button:hover,
+.main-button:focus {
+    color: var(--original-white-color);
+    background-color: var(--accent-color);
+}
+.main-list-title-h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.txt {
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+/*---------------------------------------------FOOTER------------------------------------------*/
+.footer {
+    background-color: var(--primary-background-color);
+}
+.logo-footer {
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--original-white-color);
+}
+.address {
+    font-style: normal;
+}
+.address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--original-white-color);
+    background-color: var(--primary-background-color);
+}
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+    background-color: var(--primary-background-color);
+}
